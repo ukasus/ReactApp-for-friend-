@@ -9,7 +9,7 @@ class Items extends Component{
                 <h3>Milk</h3>
                 <h3>Crud(Dahi)</h3>
                 <h3>Cheese(Panner)</h3>
-                <Link to="/cakes">Cakes</Link>
+                <Link id="cakes-display" to="/cakes">Cakes</Link>
             </div>
         )
     }

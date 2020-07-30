@@ -1,19 +1,35 @@
 
-h2{
-    text-align: center;
-}
-#base-container{
+
+h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-style: italic;
     
-   
-    min-height: 100vh;
-    width: 100vh;
-    width:100%;
-   
-  
-    border:2px solid black;
+    font-variant: small-caps;
+}
+#Items h3 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-style: italic;
+    color:burlywood;
+    font-variant: small-caps;
+}
+#cakes-display{
+    font-size: 35px;
+    font-family: sans-serif;
+    padding:10px;
+    margin-top: 50px;
+    font-style: italic;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    font-variant: small-caps;
+    text-decoration: none;
+}
    
 
-}
+
 #main-title{
     
     text-align: center;
@@ -22,7 +38,7 @@ h2{
     
     width: 50%;
 
-    border:2px solid black;
+   
 
    
     
@@ -31,50 +47,79 @@ h2{
 #left-div{
     position: relative;
   
-
+float: left;
 width:25%;
-border:2px solid black;
-height: 300px;
-text-align:center;
+
+
+text-align: center;
 padding-top:10px;
 
-}
-
-#right-div{
-   position: relative;
-    right: 0;
-    height: 300px;
-margin-left:auto;
-margin-top: -315px;
-width:25%;
-border:2px solid black;
-text-align:center;
-padding-top:10px;
 
 }
 #Items{
     position: relative;
-    
+    float: left;
  text-align: center;
    
     margin: auto;
-    margin-top: -310px;
-    width: 40%;
+    
+    width: 50%;
   
-   border:2px solid black;
+   
 }
+
+#right-div{
+   position: relative;
+    float: left;
+    
+
+
+width:25%;
+
+text-align:center;
+padding-top:10px;
+
+}
+
 #cakes-container{
+    margin-top:500px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     margin-left: 25%;
     text-align: left;
     width: 50%;
-    margin-top:200px;
-    border:2px solid black;
+    
+    
     
 }
 #cakes{
+    
     text-align: center;
-    border:2px solid black;
+    
     padding:10px;
 }
+img{
+    margin: auto;
+    
+    width:60%;
+}
+
+@media screen and (max-width: 800px) {
+    #left-div, #right-div{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #Items{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      float:right;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #cakes-container {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      display: grid;
+      grid-template-columns: 1fr;
+      margin:auto;
+    }
+  }

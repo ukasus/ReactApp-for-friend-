@@ -17,16 +17,18 @@ class App extends Component{
                     <Route exact path="/cakes" >
                     <MainTitle></MainTitle>
                     <LeftDiv ></LeftDiv>
+                    <Items></Items>
                     <RightDiv></RightDiv>
                     
-                    <Items></Items>
+                   
                     <Cakes></Cakes>
                     </Route>
                     <Route path="/" >
                     <MainTitle></MainTitle>
                     <LeftDiv ></LeftDiv>
-                    <RightDiv></RightDiv>
                     <Items></Items>
+                    <RightDiv></RightDiv>
+                    
                     </Route>
 
             </Switch>
