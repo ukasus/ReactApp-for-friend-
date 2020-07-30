@@ -104,19 +104,19 @@ img{
     width:60%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     #left-div, #right-div{
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       margin-top: 15%;
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     #Items{
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       float:right;
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     #cakes-container {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       display: grid;
