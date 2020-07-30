@@ -107,6 +107,7 @@ img{
 @media screen and (max-width: 800px) {
     #left-div, #right-div{
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      margin-top: 15%;
     }
   }
   @media screen and (max-width: 800px) {
