@@ -13,12 +13,6 @@ class App extends Component{
     return(
       <div id="base-container">
            <Switch>
-                    <Route exact path="/" >
-                    <MainTitle></MainTitle>
-                    <LeftDiv ></LeftDiv>
-                    <RightDiv></RightDiv>
-                    <Items></Items>
-                    </Route>
 
                     <Route exact path="/cakes" >
                     <MainTitle></MainTitle>
@@ -28,6 +22,13 @@ class App extends Component{
                     <Items></Items>
                     <Cakes></Cakes>
                     </Route>
+                    <Route path="/" >
+                    <MainTitle></MainTitle>
+                    <LeftDiv ></LeftDiv>
+                    <RightDiv></RightDiv>
+                    <Items></Items>
+                    </Route>
+
             </Switch>
       </div>
     )
