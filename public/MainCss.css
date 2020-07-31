@@ -7,16 +7,33 @@ h1{
     
     font-variant: small-caps;
 }
-#Items h3 {
-  margin-left: -20%;
-    font-size: 35px;
-    font-family: sans-serif;
-    font-style: italic;
-    color:burlywood;
-    font-variant: small-caps;
+h2{
+  
 }
+li{
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+  color:white;
+  
+  background-color: teal;
+  border-radius:40px ;
+  
+}
+#base-container
+{
+  margin-top: -2%;
+  background-color: lightgrey;
+  border-radius: 70px;
+  min-height: 150vh;
+
+}
+
 #cakes-display{
-  margin-left: -20%;
+ 
     font-size: 40px;
     font-family: sans-serif;
    
@@ -25,9 +42,23 @@ h1{
     color: white;
     
     border-radius: 10px;
-    background-color: grey;
+    background-color:black;
     font-variant: small-caps;
     text-decoration: none;
+}
+#cakes-display:hover{
+ 
+  font-size: 70px;
+  font-family: sans-serif;
+ 
+ 
+  font-style: italic;
+  color:black;
+  
+  border-radius: 10px;
+  background-color:darkgray;
+  font-variant: small-caps;
+  text-decoration: none;
 }
    
 
@@ -37,8 +68,7 @@ h1{
     text-align: center;
     position: relative;
     margin:auto;
-    background-color: burlywood;
-    border-radius: 40px;
+   
     
     width: 50%;
 
@@ -49,13 +79,12 @@ h1{
 }
 
 #left-div{
-    position: relative;
+    position: absolute;
   
 float: left;
 width:25%;
-margin-top: -10%;
-background-color: darkgrey;
-border-radius: 50px;
+top:0;
+
 text-align: center;
 padding-top:10px;
 
@@ -67,16 +96,25 @@ padding-top:10px;
 #Items{
   
     position: relative;
-    float: left;
+    
  text-align: center;
- background-color: ghostwhite;
- border-radius: 60px;
+
    
     margin: auto;
+    margin-top: 5%;
     
-    width: 75%;
+    width: 100%;
    
    
+}
+#Items h3 {
+  
+  
+    font-size: 35px;
+    font-family: sans-serif;
+    font-style: italic;
+    color:burlywood;
+    font-variant: small-caps;
 }
 
 #right-div{
@@ -91,6 +129,12 @@ text-align:center;
 padding-top:10px;
 
 }
+h3 {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
 
 #cakes-container{
   position: relative;
@@ -128,17 +172,24 @@ padding-top:10px;
 
 @media screen and (max-width: 700px) {
     #left-div,.self-info{
+      position: relative;
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       margin-top: 10%;
+      text-align: center;
     }
-    #Items h3{
-      margin: auto;
-      
-      padding-bottom: 10%;
+  
+    #Items h2{
+      padding-top: 10%;
+      font-family: serif;
+      font-size: 50px;
     }
-   
+    li{
+
+    }
+  
     #Items{
-      margin-top: 15%;
+      position: relative;
+      margin-top: 270%;
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       
       

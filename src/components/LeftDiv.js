@@ -14,7 +14,7 @@ class LeftDiv extends Component{
                 </div>
                 <div class="self-info">
                 <img src={arjun}></img>
-                <h2>Arjun Goel(Lala)</h2>
+                <h2>Arjun Goel</h2>
                 <h3>Mob.No-8791224004</h3>
             </div>
             </div>
