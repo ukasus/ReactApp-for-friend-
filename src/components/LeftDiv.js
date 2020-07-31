@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-
+import uncle from '../photos/uncle.jpg';
+import arjun from '../photos/arjun.jpg';
 class LeftDiv extends Component{
 
     render()
@@ -7,14 +8,14 @@ class LeftDiv extends Component{
         return(
             <div id="left-div">
                 <div class="self-info">
-                <img src="https://media-exp1.licdn.com/dms/image/C5103AQHy0cJj4HYarQ/profile-displayphoto-shrink_200_200/0?e=1601510400&v=beta&t=N7tUGlpPAU614O1DO8o4WzDWIKkbUruGKlUZm0KmoA0"></img>
+                <img src={uncle}></img>
                 <h2>Balesh Goel</h2>
-                <h3>9012802194</h3>
+                <h3>Mob.No-9027638054</h3>
                 </div>
                 <div class="self-info">
-                <img src="https://media-exp1.licdn.com/dms/image/C5103AQHy0cJj4HYarQ/profile-displayphoto-shrink_200_200/0?e=1601510400&v=beta&t=N7tUGlpPAU614O1DO8o4WzDWIKkbUruGKlUZm0KmoA0"></img>
+                <img src={arjun}></img>
                 <h2>Arjun Goel(Lala)</h2>
-                <h3>9012802194</h3>
+                <h3>Mob.No-8791224004</h3>
             </div>
             </div>
         )
