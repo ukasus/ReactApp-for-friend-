@@ -8,7 +8,7 @@ class Items extends Component{
             <div id="Items">
                 <h3>Milk</h3>
                 <h3>Crud(Dahi)</h3>
-                <h3>Cheese(Panner)</h3>
+                <h3>Cheese(Paneer)</h3>
                 <Link id="cakes-display" to="/cakes">Cakes</Link>
             </div>
         )

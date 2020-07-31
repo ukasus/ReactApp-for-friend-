@@ -18,7 +18,7 @@ class App extends Component{
                     <MainTitle></MainTitle>
                     <LeftDiv ></LeftDiv>
                     <Items></Items>
-                    <RightDiv></RightDiv>
+                    
                     
                    
                     <Cakes></Cakes>
@@ -27,7 +27,7 @@ class App extends Component{
                     <MainTitle></MainTitle>
                     <LeftDiv ></LeftDiv>
                     <Items></Items>
-                    <RightDiv></RightDiv>
+                    
                     
                     </Route>
 
