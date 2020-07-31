@@ -7,6 +7,7 @@ class MainTitle extends Component
         return(
             <div id="main-title">
             <h1>Hare Krishna Confectionay</h1>
+            
             </div>
            
         )

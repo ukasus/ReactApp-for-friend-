@@ -170,12 +170,22 @@ h3 {
     border-radius: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
     #left-div,.self-info{
       position: relative;
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       margin-top: 10%;
       text-align: center;
+    }
+    #main-title{
+     
+      
+      width: 100%;
+      
+    }
+    h1{
+      text-align: center;
+      font-size: 50px;
     }
   
     #Items h2{
@@ -183,9 +193,7 @@ h3 {
       font-family: serif;
       font-size: 50px;
     }
-    li{
-
-    }
+   
   
     #Items{
       position: relative;
@@ -210,10 +218,6 @@ h3 {
      padding-top: 15%;
       
     }
-    #main-title{
-      text-align: center;
-      width: 100%;
-      text-overflow: clip;
-    }
+
   }
  
