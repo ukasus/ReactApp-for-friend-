@@ -37,6 +37,8 @@ h1{
     text-align: center;
     position: relative;
     margin:auto;
+    background-color: burlywood;
+    border-radius: 40px;
     
     width: 50%;
 
@@ -52,7 +54,8 @@ h1{
 float: left;
 width:25%;
 margin-top: -10%;
-
+background-color: darkgrey;
+border-radius: 50px;
 text-align: center;
 padding-top:10px;
 
@@ -66,6 +69,8 @@ padding-top:10px;
     position: relative;
     float: left;
  text-align: center;
+ background-color: ghostwhite;
+ border-radius: 60px;
    
     margin: auto;
     
@@ -88,11 +93,14 @@ padding-top:10px;
 }
 
 #cakes-container{
+  position: relative;
     padding-top: 5%;
     display: grid;
+   
     grid-template-columns: 1fr 1fr ;
     margin-left: 25%;
     
+    border-radius: 70px;
     width: 50%;
     
     
@@ -145,6 +153,7 @@ padding-top:10px;
     #cakes-container {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
       display: grid;
+      margin-top: 100px;
       grid-template-columns: 1fr;
      margin-left: 0%;
      padding-top: 15%;
