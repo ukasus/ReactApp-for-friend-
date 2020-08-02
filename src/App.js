@@ -1,10 +1,12 @@
 import React,{Component} from 'react';
 import MainTitle from './components/MainTitle.js';
 import LeftDiv from './components/LeftDiv.js';
-import RightDiv from './components/RightDiv.js'
+
 import Items from './components/Items.js';
 import {Route,Switch} from 'react-router-dom';
-import Cakes from './components/Cakes.js'
+import Cakes from './components/Cakes.js';
+import orderCatalog from './components/OrderCatalog';
+import OrderCatalog from './components/OrderCatalog';
 
 class App extends Component{
 
@@ -18,17 +20,24 @@ class App extends Component{
                     <MainTitle></MainTitle>
                     <LeftDiv ></LeftDiv>
                     <Items></Items>
-                    
-                    
-                   
                     <Cakes></Cakes>
                     </Route>
-                    <Route path="/" >
+                    
+                    <Route exact path='/orderCatalog/:id'>
+                    <OrderCatalog></OrderCatalog>
                     <MainTitle></MainTitle>
                     <LeftDiv ></LeftDiv>
                     <Items></Items>
+                    <Cakes></Cakes>
                     
                     
+
+                    </Route>
+                    
+                    <Route exact path="/" >
+                    <MainTitle></MainTitle>
+                    <LeftDiv ></LeftDiv>
+                    <Items></Items>
                     </Route>
 
             </Switch>

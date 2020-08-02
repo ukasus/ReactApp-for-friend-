@@ -90,6 +90,13 @@ padding-top:10px;
 
 
 }
+#left-div img{
+  margin: auto;
+ 
+  width:60%;
+  border:1px solid ;
+  border-radius: 20px;
+}
 .self-info{
   margin-top: 10%;
 }
@@ -139,35 +146,89 @@ h3 {
 #cakes-container{
   position: relative;
     padding-top: 5%;
+   
     display: grid;
    
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     margin-left: 25%;
+    
     
     border-radius: 70px;
     width: 50%;
+   
     
     
     
 }
 #cakes{
+  flex-basis: calc(33.333% - 4rem);
+  border: 1px solid #d3d3d3;
+  padding: 2rem;
+  flex-grow: 1;
+  margin: 0 2rem 2rem 2rem;
     
     text-align: center;
-    
-    padding:15px;
 }
-#left-div img{
-    margin: auto;
+
+ #cakes img{
    
-    width:60%;
-    border:1px solid ;
+  width: calc(100% + 4rem);
+  margin: -2rem 0rem 0rem -2rem;
+  
+  
+
     border-radius: 20px;
 }
-#cakes img{
-  margin: auto;
+.button{
+
+  font-style: italic;
+  color: antiquewhite;
+  font-size: 30px;
   
-    width:60%;
-    border-radius: 20px;
+  border-radius: 10px;
+  background-color:black;
+  font-variant: small-caps;
+  text-decoration: none;
+ 
+}
+#order-catalog{
+  z-index: 9;
+  position:fixed;
+ 
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 25px;
+ 
+  background-color: white;
+}
+#order-catalog-form{
+  text-align: center;
+  position: relative;
+  width: 70%;
+  float: left;
+}
+
+#order-catalog-img{
+  width:30%;
+  float: left;
+}
+#order-catalog img{
+  border-radius: 20px;
+  
+  width:90%;
+}
+select{
+  background-color: #1bad08;
+  border-radius: 10px;
+  color: white;
+  padding: 12px;
+  width:30%;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -218,6 +279,23 @@ h3 {
      padding-top: 15%;
       
     }
+    #order-catalog{
+      
+      z-index: 9;
+      position:fixed;
+     margin:auto;
+      
+      width: 100%;
+      border-radius: 25px;
+     
+      background-color: white;
+    }
+    #order-catalog-img{
+      border-radius: 20px;
+      
+      width:30%;
+    }
 
   }
+ 
  
