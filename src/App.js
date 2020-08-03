@@ -5,7 +5,7 @@ import LeftDiv from './components/LeftDiv.js';
 import Items from './components/Items.js';
 import {Route,Switch} from 'react-router-dom';
 import Cakes from './components/Cakes.js';
-import orderCatalog from './components/OrderCatalog';
+import OrderConfirmation from './components/OrderConfirmation.js';
 import OrderCatalog from './components/OrderCatalog';
 
 class App extends Component{
@@ -32,6 +32,9 @@ class App extends Component{
                     
                     
 
+                    </Route>
+                    <Route exact path="/orderConfirmation" >
+                  <OrderConfirmation></OrderConfirmation>
                     </Route>
                     
                     <Route exact path="/" >

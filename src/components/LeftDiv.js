@@ -7,12 +7,12 @@ class LeftDiv extends Component{
     {
         return(
             <div id="left-div">
-                <div class="self-info">
+                <div className="self-info">
                 <img src={uncle} alt='UnlceImage'></img>
                 <h2>Balesh Goel</h2>
                 <h3>Mob.No-9027638054</h3>
                 </div>
-                <div class="self-info">
+                <div className="self-info">
                 <img src={arjun} alt='ArjunImage'></img>
                 <h2>Arjun Goel</h2>
                 <h3>Mob.No-8791224004</h3>

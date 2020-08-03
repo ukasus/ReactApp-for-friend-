@@ -230,6 +230,17 @@ select{
   appearance: button;
   outline: none;
 }
+#order-confirmation{
+  z-index: 9;
+  position:fixed;
+ 
+  margin-left: 25%;
+  width: 50%;
+  border-radius: 25px;
+  text-align: center;
+ 
+  background-color: white;
+}
 
 @media screen and (max-width: 767px) {
     #left-div,.self-info{
@@ -282,6 +293,16 @@ select{
     #order-catalog{
       
       z-index: 9;
+      position:fixed;
+     margin:auto;
+      
+      width: 100%;
+      border-radius: 25px;
+     
+      background-color: white;
+    }
+    #order-confirmation{
+       z-index: 9;
       position:fixed;
      margin:auto;
       
