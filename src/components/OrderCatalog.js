@@ -27,7 +27,7 @@ class OrderCatalog extends Component{
             phone: this.phone,
             size: this.size,
             type: Type,
-            id:con+1
+            cake:con+1
         }
         
         axios.post("https://backendforgoyal.herokuapp.com/postDetails",details)
