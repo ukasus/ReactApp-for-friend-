@@ -14,7 +14,7 @@ class MainTitle extends Component
           <Typing loop='true' >
             <h1 >Hare Krishna Confectionary</h1>
             <Typing speed={5}></Typing>
-            <Typing.Backspace count={26} speed={7} />
+            <Typing.Backspace count={30} speed={7} />
             
             </Typing>
             </div>
