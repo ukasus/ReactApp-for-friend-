@@ -1,5 +1,12 @@
 import React,{Component} from 'react';
-import one from './cakes/1.jpg';
+
+// import one from './cakes/1.jpg';
+
+// import one from './cakes/1.jpg';
+
+
+// import one from './cakes/1.jpg';
+
 
 
 import {withRouter} from 'react-router-dom';
