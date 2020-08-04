@@ -125,38 +125,7 @@ class App extends Component{
 </div>
 
 
-      <div id="base-container">
-           <Switch>
-
-                    <Route exact path="/cakes" >
-                    <MainTitle></MainTitle>
-                    <LeftDiv ></LeftDiv>
-                    <Items></Items>
-                    <Cakes></Cakes>
-                    </Route>
-                    
-                    <Route exact path='/orderCatalog/:id'>
-                    <OrderCatalog></OrderCatalog>
-                    <MainTitle></MainTitle>
-                    <LeftDiv ></LeftDiv>
-                    <Items></Items>
-                    <Cakes></Cakes>
-                    
-                    
-
-                    </Route>
-                    <Route exact path="/orderConfirmation" >
-                  <OrderConfirmation></OrderConfirmation>
-                    </Route>
-                    
-                    <Route exact path="/" >
-                    <MainTitle></MainTitle>
-                    <LeftDiv ></LeftDiv>
-                    <Items></Items>
-                    </Route>
-
-            </Switch>
-      </div>
+     
       </div>
     )       
   }

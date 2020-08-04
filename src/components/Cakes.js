@@ -3,7 +3,7 @@ import React,{Component} from 'react';
 import {Link} from 'react-router-dom'
 
 // import AliceCarousel from 'react-alice-carousel'
-import 'react-alice-carousel/lib/alice-carousel.css'
+//import 'react-alice-carousel/lib/alice-carousel.css'
 
 
 class Cakes extends Component{

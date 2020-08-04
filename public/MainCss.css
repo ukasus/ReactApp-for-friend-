@@ -267,8 +267,12 @@ padding-top:10px;
   border:1px solid ;
   border-radius: 20px;
 }
+
 .self-info{
   margin-top: 10%;
+}
+.self-info h2{
+  color: white;
 }
 #Items{
   
@@ -501,7 +505,12 @@ select:click{
 
   background-color: white;
 }
-
+#order-catalog h3,h2{
+  color: black;
+}
+#order-confirmation h3,h2{
+  color: black;
+}
 @media screen and (max-width: 767px) {
 
   #left-div,
