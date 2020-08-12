@@ -103,7 +103,7 @@ class App extends Component{
 </Route>
 
 <Route exact path='/orderCatalog/:id'>
-  <ScrollToTop></ScrollToTop>
+  
 <OrderCatalog></OrderCatalog>
 <MainTitle></MainTitle>
 <LeftDiv ></LeftDiv>

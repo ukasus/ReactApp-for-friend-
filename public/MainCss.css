@@ -586,6 +586,10 @@ select:click{
 
     width: 30%;
   }
+  #order-catalog input{
+    width:40%;
+    
+  }
   select{
 
   

@@ -77,7 +77,7 @@ class OrderCatalog extends Component{
                 <br></br><br></br><br></br>
                  <h3>Required Date:</h3> <input type='date' onChange={event=>this.date=event.target.value}></input>
                 <br></br><br></br><br></br>
-                <input type='submit' value='Order' className='button'></input>
+                <input type='submit' value='Order' className='button' id='order-input'></input>
                 </pre> 
                      
                      
