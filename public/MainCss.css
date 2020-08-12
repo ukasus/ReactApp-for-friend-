@@ -409,8 +409,8 @@ margin-top: 40px;
 }
 
 #order-catalog{
-  z-index: 9;
-  position:fixed;
+  z-index: 1000;
+  position: absolute;
  
   margin-left: 25%;
   width: 50%;
@@ -551,8 +551,8 @@ select:click{
     padding-top: 15%;
   }
   #order-catalog {
-    z-index: 9;
-    position: fixed;
+    z-index: 1000;
+    position: absolute;
     margin: auto;
 
     width: 100%;

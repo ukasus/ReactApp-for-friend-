@@ -9,6 +9,7 @@ import OrderConfirmation from './components/OrderConfirmation.js';
 import OrderCatalog from './components/OrderCatalog';
 
 import Particles from 'react-particles-js';
+import ScrollToTop from './components/ScrollToTop.js';
 
 
 
@@ -102,11 +103,13 @@ class App extends Component{
 </Route>
 
 <Route exact path='/orderCatalog/:id'>
+  <ScrollToTop></ScrollToTop>
 <OrderCatalog></OrderCatalog>
 <MainTitle></MainTitle>
 <LeftDiv ></LeftDiv>
 <Items></Items>
 <Cakes></Cakes>
+
 
 
 
