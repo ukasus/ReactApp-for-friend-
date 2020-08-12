@@ -410,7 +410,7 @@ margin-top: 40px;
 
 #order-catalog{
   z-index: 1000;
-  position: absolute;
+  position: fixed;
  
   margin-left: 25%;
   width: 50%;
@@ -441,11 +441,12 @@ html{
 #order-catalog img {
   border-radius: 20px;
 margin-top: 20px;
-  width: 90%;
+  width: 80%;
+  
 }
 #order-catalog input{
-  padding-right: 10px;
-  padding-left: 10px;
+  width:30%;
+  
 }
 /* select {
 } */
@@ -506,11 +507,20 @@ select:click{
   background-color: white;
 }
 #order-catalog h3,h2{
+  
   color: black;
+}
+#order-catalog h3{
+  display: inline;
 }
 #order-confirmation h3,h2{
   color: black;
 }
+
+
+
+
+
 @media screen and (max-width: 767px) {
 
   #left-div,
@@ -552,9 +562,10 @@ select:click{
   }
   #order-catalog {
     z-index: 1000;
-    position: absolute;
+    position: fixed;
+    
     margin: auto;
-
+    min-height: 80vh;
     width: 100%;
     border-radius: 25px;
 

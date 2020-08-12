@@ -67,14 +67,16 @@ class OrderCatalog extends Component{
                     <option value="WithEgg"  >WithEgg</option>
                     
                 </select>
-                <h3>Your Name</h3><input type='text' name='Name' onChange={event=>this.name=event.target.value}></input>
+                <br></br><br></br><br></br>
+                <h3>Your Name:</h3> <input type='text' name='Name' onChange={event=>this.name=event.target.value}></input>
                 
-               
-                <h3>Your MobileNumber</h3><input type='text' name='phone' onChange={event=>this.phone=event.target.value}></input>
-                <h3>Size of Cake Required</h3><input type='text' name='Size' placeholder='In Pounds' onChange={event=>this.size=event.target.value}></input>
-                 <h3>Required Date</h3>
-                <input type='date' onChange={event=>this.date=event.target.value}></input>
-                <br></br><br></br>
+                <br></br><br></br><br></br>
+                <h3>Your MobileNumber:</h3> <input type='text' name='phone' onChange={event=>this.phone=event.target.value}></input>
+                <br></br><br></br><br></br>
+                <h3>Size of Cake Required:</h3> <input type='text' name='Size' placeholder='In Pounds' onChange={event=>this.size=event.target.value}></input>
+                <br></br><br></br><br></br>
+                 <h3>Required Date:</h3> <input type='date' onChange={event=>this.date=event.target.value}></input>
+                <br></br><br></br><br></br>
                 <input type='submit' value='Order' className='button'></input>
                 </pre> 
                      
