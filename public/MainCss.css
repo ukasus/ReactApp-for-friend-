@@ -327,11 +327,7 @@ h3 {
   border-radius: 70px;
   width: 50%;
 }
-<<<<<<< HEAD
 
-=======
-/* #cakes { */
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
 
 
 #cakes-container{
@@ -413,13 +409,11 @@ margin-top: 40px;
 }
 
 #order-catalog{
-<<<<<<< HEAD
+
   z-index: 1000;
-  position: fixed;
-=======
-  z-index: 9;
+  
   position:fixed;
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+
  
   margin-left: 25%;
   width: 50%;
@@ -450,23 +444,21 @@ html{
 #order-catalog img {
   border-radius: 20px;
 margin-top: 20px;
-<<<<<<< HEAD
-  width: 80%;
+
+  width: 70%;
   
 }
 #order-catalog input{
   width:30%;
   
-=======
-  width: 90%;
+
 }
 #order-catalog input{
   padding-right: 10px;
   padding-left: 10px;
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+
 }
-/* select {
-} */
+
 
 #order-catalog-img{
   width:30%;
@@ -524,7 +516,6 @@ select:click{
   background-color: white;
 }
 #order-catalog h3,h2{
-<<<<<<< HEAD
   
   color: black;
 }
@@ -539,13 +530,12 @@ select:click{
 
 
 
-=======
-  color: black;
-}
+
+  
 #order-confirmation h3,h2{
   color: black;
 }
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+
 @media screen and (max-width: 767px) {
 
   #left-div,
@@ -586,18 +576,16 @@ select:click{
     padding-top: 15%;
   }
   #order-catalog {
-<<<<<<< HEAD
+
     z-index: 1000;
     position: fixed;
     
     margin: auto;
     min-height: 80vh;
-=======
-    z-index: 9;
-    position: fixed;
-    margin: auto;
 
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+    
+
+
     width: 100%;
     border-radius: 25px;
 
@@ -618,7 +606,7 @@ select:click{
 
     width: 30%;
   }
-<<<<<<< HEAD
+
   #order-catalog input{
     width:40%;
     
@@ -632,8 +620,8 @@ select:click{
   
 
 }
-=======
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+
+
   
 }
 

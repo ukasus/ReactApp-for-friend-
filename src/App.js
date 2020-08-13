@@ -9,10 +9,8 @@ import OrderConfirmation from './components/OrderConfirmation.js';
 import OrderCatalog from './components/OrderCatalog';
 
 import Particles from 'react-particles-js';
-<<<<<<< HEAD
+
 import ScrollToTop from './components/ScrollToTop.js';
-=======
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
 
 
 
@@ -106,23 +104,14 @@ class App extends Component{
 </Route>
 
 <Route exact path='/orderCatalog/:id'>
-<<<<<<< HEAD
-  
-=======
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
 <OrderCatalog></OrderCatalog>
 <MainTitle></MainTitle>
 <LeftDiv ></LeftDiv>
 <Items></Items>
 <Cakes></Cakes>
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
 </Route>
+
+
 <Route exact path="/orderConfirmation" >
 <OrderConfirmation></OrderConfirmation>
 </Route>

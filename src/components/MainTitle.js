@@ -14,11 +14,11 @@ class MainTitle extends Component
           <Typing loop='true' >
             <h1 >Hare Krishna Confectionary</h1>
             <Typing speed={5}></Typing>
-<<<<<<< HEAD
-            <Typing.Backspace count={30} speed={7} />
-=======
+
+            
+
             <Typing.Backspace count={26} speed={7} />
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+
             
             </Typing>
             </div>
@@ -27,8 +27,6 @@ class MainTitle extends Component
     }
 }
 
-<<<<<<< HEAD
+
 export default MainTitle;
-=======
-export default MainTitle;
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+

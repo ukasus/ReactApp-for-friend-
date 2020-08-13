@@ -37,13 +37,8 @@ class Cakes extends Component{
     
                     
                       <img className="d-block w-100"
-                       src={require('./cakes/'+(idx+1)+'.jpg') } alt='CakeImage'
-      
-<<<<<<< HEAD
-                  />              <h2>ID-{idx+1}</h2>
-=======
-    />
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+                       src={require('./cakes/'+(idx+1)+'.jpg') } alt='CakeImage' />              
+                       <h2>ID-{idx+1}</h2>
                    
                     <Link to={'/orderCatalog/'+idx} className="button" >Order</Link>
                     <span aria-hidden="true" className="carousel-control-prev-icon" />

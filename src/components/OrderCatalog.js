@@ -34,20 +34,18 @@ class OrderCatalog extends Component{
             phone: this.phone,
             size: this.size,
             type: Type,
-<<<<<<< HEAD
+
             cake:con+1,
             date:this.date
         }
-        console.log(this.date)
+    
         
         axios.post("https://backendforgoyal.herokuapp.com/postDetails",details)
         //axios.post("http://localhost:8080/postDetails",details)
-=======
-            cake:con+1
-        }
+
         
-        axios.post("https://backendforgoyal.herokuapp.com/postDetails",details)
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+        
+   
         this.props.history.push('/orderConfirmation')
        
     }
@@ -63,14 +61,13 @@ class OrderCatalog extends Component{
             
             <div id="order-catalog">
                 <div id="order-catalog-form">
-<<<<<<< HEAD
+
                     <h2>EggLess Cakes- Rs.250/pound</h2>
                     <h2>Rectangle Cakes- Rs.100/pound</h2>
                     <h2>Photo/Cartoon Print Cakes- Rs.350/pound</h2>
-=======
-                    <h2>EggLess Cakes- Rs.200/pound</h2>
-                    <h2>Rectangle Cakes- Rs.100/pound</h2>
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+
+                    
+
                 <form onSubmit={this.sendtobackend}>
                     <pre>
                 
@@ -79,7 +76,7 @@ class OrderCatalog extends Component{
                     <option value="WithEgg"  >WithEgg</option>
                     
                 </select>
-<<<<<<< HEAD
+
                 <br></br><br></br><br></br>
                 <h3>Your Name:</h3> <input type='text' name='Name' onChange={event=>this.name=event.target.value}></input>
                 
@@ -91,13 +88,9 @@ class OrderCatalog extends Component{
                  <h3>Required Date:</h3> <input type='date' onChange={event=>this.date=event.target.value}></input>
                 <br></br><br></br><br></br>
                 <input type='submit' value='Order' className='button' id='order-input'></input>
-=======
-                <h3>Your Name</h3><input type='text' name='Name' onChange={event=>this.name=event.target.value}></input>
-                <h3>Your MobileNumber</h3><input type='text' name='phone' onChange={event=>this.phone=event.target.value}></input>
-                <h3>Size of Cake Required</h3><input type='text' name='Size' placeholder='In Pounds' onChange={event=>this.size=event.target.value}></input>
-                <br></br><br></br>
-                <input type='submit' value='Order' className='button'></input>
->>>>>>> eccdb5c70aa7129929b00a30f2607ace417fbbd2
+
+                
+
                 </pre> 
                      
                      
